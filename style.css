@@ -3,6 +3,7 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .button {
@@ -29,23 +30,30 @@ body {
   margin: 10% auto;
   width: 60%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  background: #F2F7F9;
 }
 
-.modal-header h2,
-.modal-footer h3 {
-  margin: 0;
+.modal-header h4{
+  margin-bottom: 0;
+  color: #8D8F90;
 }
 
 .modal-header {
-  /*padding: 15px;*/
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 1em 1em 0;
 }
 
 .modal-body {
   padding: 10px 20px;
   background: #fff;
+  color: #8D8F90;
+  background: #F2F7F9;
+}
+
+.modal-body h4{
+  color: #575757;
 }
 
 .modal-footer {
@@ -55,6 +63,6 @@ body {
 
 .close {
   float: right;
-  font-size: 30px;
+  line-height: 4.5;
 }
 
