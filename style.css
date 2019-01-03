@@ -29,7 +29,7 @@ body {
 .modal-content {
   margin: 10% auto;
   width: 60%;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 2px 2px 15px 5px rgba(228,228,228,0.8);
   background: #F2F7F9;
 }
 
