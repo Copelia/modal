@@ -20,7 +20,7 @@ body {
   z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translate(-60%, -35%);
+  transform: translate(-50%, -40%);
   height: 100%;
   width: 100%;
   overflow: auto;
@@ -50,15 +50,11 @@ body {
   background: #fff;
   color: #8D8F90;
   background: #F2F7F9;
+  font-size: 18px;
 }
 
 .modal-body h4{
   color: #575757;
-}
-
-.modal-footer {
-  padding: 10px;
-  text-align: center;
 }
 
 .close {
